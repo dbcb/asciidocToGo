@@ -31,7 +31,7 @@ including the following parts:
 Usage
 -----
 
-asciidoctogo <options> <filename>
+```asciidoctogo <options> <filename>```
 
 asciidocToGo configures at the first start the configuration of all
 components and forwards the parameter to asciidoc then.
