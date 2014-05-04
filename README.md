@@ -1,17 +1,15 @@
-asciidocToGo
+AsciidocToGo
 ============
 
-Portable version of asciidoc including plugins (dot, latex, code highlighting) 
-
-Asciidoc is a great tool to create good looking html documents out of plain text files.
-To use it with all features, a lot of additional packages need to be included.
-This project tries to make it easier for users to "just use" asciddoc without the hassle
-to deal with installations and dependencies.
+AsciidocToGo is a full featured portable version of [asciidoc](http://www.asciidoc.org asciidoc) that contains
+the complete toolchain to build html or docbook/latex based PDF documentation out of plain ascii files. Just download
+AsciidocToGo and start writing instead of seaching day or maybe weeks to put together all of the the required
+softwareparts.
 
 Packages
 --------
 
-asciidocToGo is delivered as a stand alone package for windows, linux, and macos
+AsciidocToGo is delivered as a stand alone package for windows, linux, and McOS
 including the following parts:
 
 * python 2.7.x
@@ -23,23 +21,39 @@ including the following parts:
 * dblatex
 * xsltproc
 * DocBook XSL Stylesheets
-* Fop
-* w3m
-* Lynx (?)
-* epubcheck
+* Lynx
+* mpw
+* QSide
+* Ply
 
 Usage
 -----
 
-```asciidoctogo <options> <filename>```
+AsccidocToGo currently use batch files to setup an envirnonment with
+the correct pathes and environment variables. This will be changed changes later to
+python based QT gui. 
 
-asciidocToGo configures at the first start the configuration of all
-components and forwards the parameter to asciidoc then.
+The installer adds the AsciidocToGo installation path to the system path.
+To use AsciidocToGo just open an shell (cmd.exe) and execute one
+of the following commands:
+
+* ```asciidoc.bat <options> <filename>```
+     Executes asciidoc.py in the preconfigured environment
+* ```a2x.bat  <options> <filename>```
+     Executes a2x.py in the preconfigured environment
+* ```AsciidocToGoShell.bat```
+     Opens a command shell with the preconfigured environment
+* ```test_cmd.bat <command>```
+     Excutes any shell command in the preconfigured environment
+
 
 Current State
 -------------
 
-Working on the packages for asciidoc-8.6.9
+Working on the pre alpha packages for asciidoc-8.6.9.
+If you like to test the first pre alpha releases, drop mea note
+at CarstenBreuerDevATgmx.de
+
 
 
 
