@@ -1,13 +1,12 @@
-AsciidocToGo
-============
+# AsciidocToGo '#
+
 
 AsciidocToGo is a full featured portable version of [asciidoc](http://www.asciidoc.org asciidoc) that contains
 the complete toolchain to build html or docbook/latex based PDF documentation out of plain ascii txt files. Just download
 AsciidocToGo and start writing instead of seaching day or maybe weeks to put together all of the the required
 software parts.
 
-Packages
---------
+## Packages ##
 
 AsciidocToGo is delivered as a stand alone package for windows and MAC-OS
 including the following parts:
@@ -39,8 +38,7 @@ including the following parts:
 * [ply 3.4](http://www.dabeaz.com/ply/)
 * [setuptool 4.0.1](https://pypi.python.org/pypi/setuptools#windows-7-or-graphical-install)
 
-Installation
-------------
+## Installation ##
 
 Download AsciidocToGo zip file for your platform and extract the zip file
 outside of the default programm directory.
@@ -53,36 +51,32 @@ outside of the default programm directory.
   Not yet published
 
 
-License
--------
+## License ##
 
 AsciidocToGo itself is lisenced under the GPLv2.
 AsciidocToGo is based on a lot of third party packages.
 
-Please refer to: [AsciidocToGo and third party licenses](https://github.com/dbcb/asciidocToGo/blob/master/doc/License.html)
+Please refer to: ![AsciidocToGo and third party licenses](https://github.com/dbcb/asciidocToGo/blob/master/doc/License.html)
 
-Usage
------
+## Usage ##
 
 Start AsciidocToGo and select the desired tab to produce html or docbook pdf files
 
-Create HTML files with asciidoc
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Create HTML files with asciidoc ###
 
 ![AsciidocToGo Asciidoc Tab](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png)
 
-[This html document is created with AsciidocToGo asciidoc]((https://github.com/dbcb/asciidocToGo/blob/master/doc/README.html)
+![This html document is created with AsciidocToGo asciidoc]((https://github.com/dbcb/asciidocToGo/blob/master/doc/README.html)
 
-Create Docbook pdf files with a2x
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Create Docbook pdf files with a2x ###
 
 ![AsciidocToGo Asciidoc Tab](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_a2x_tab.png)
 
-[This pdf document is created with AsciidocToGo a2xX]((https://github.com/dbcb/asciidocToGo/blob/master/doc/README.pdf)
+![This pdf document is created with AsciidocToGo a2xX]((https://github.com/dbcb/asciidocToGo/blob/master/doc/README.pdf)
 
 
-Windows Explorer Context Menu Entry
------------------------------------
+## Windows Explorer Context Menu Entry ##
+
 
 AsciidocToGo can add a registry based link to start AsciidocToGo with
 a right click on a txt file:
@@ -90,15 +84,15 @@ a right click on a txt file:
 ![AsciidocToGo Context Menu](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_context_menu.png)
 
 
-Batch files for scripting
--------------------------
+## Batch files for scripting ##
 
 The package also provides batch files to start asciidoc and a2x from the command line.
 
-Current State
--------------
+## Current State ##
 
 Alpha Version 0.0.5. 
+
+Copyright (c) by Carsten Breuer (CarstenBreuerDevatgmx.de)
 
 Links:
 
