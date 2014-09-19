@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="dlgicon">images/note.png</file>
+    </qresource>
+</RCC>

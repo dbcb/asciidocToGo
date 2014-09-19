@@ -1,0 +1,283 @@
+== AsciidocToGo License Agreement
+
+AsccidocToGo is build on top of a lot of great tools
+that comes with different licenses. You must agree to
+every license of that "third party package" to use AsciidocToGo.
+
+=== AsciidocToGo License (GPLV2)
+
+This License covers the AsciidocToGo program.
+
+Website:
+
+* http://dbcb.github.io/asciidocToGo
+* https://github.com/dbcb/asciidocToGo
+
+---------------------------------------------------------------------
+include::../COPYING[]
+---------------------------------------------------------------------
+
+
+=== Python License
+
+Website: http://www.python.org/
+
+---------------------------------------------------------------------
+include::../sw/python/2.7.6/LICENSE.txt[tabsize=2]
+---------------------------------------------------------------------
+
+=== Asciidoc License
+
+Website: Http://www.asciidoc.org
+
+---------------------------------------------------------------------
+include::../sw/asciidoc/8.6.9/COPYING[tabsize=2]
+---------------------------------------------------------------------
+
+=== Miktex License
+
+Website: http://miktex.org/
+
+==== General Information
+
+---------------------------------------------------------------------
+include::../sw/miktex/2.9.5105/doc/miktex/license.txt[]
+---------------------------------------------------------------------
+
+==== Catalogue of miktex software
+
+---------------------------------------------------------------------
+include::../sw/miktex/2.9.5105/source/latex/mflogo/CATALOGUE[]
+---------------------------------------------------------------------
+
+=== Graphviz (dot) License
+
+Website: http://www.research.att.com/software_tools?fbid=hCb8eyIXDJA
+
+---------------------------------------------------------------------
+include::../sw/doc/graphviz_license.txt[]
+---------------------------------------------------------------------
+
+=== Highlight License
+
+Website: http://www.andre-simon.de/doku/highlight/en/highlight.php
+
+---------------------------------------------------------------------
+include::../sw/highlight/3.1.8/COPYING[]
+---------------------------------------------------------------------
+
+=== Mathplotlib License
+
+Website: http://matplotlib.org/downloads.html
+
+---------------------------------------------------------------------
+include::../sw/doc/mathplotlib_license.txt[]
+---------------------------------------------------------------------
+
+==== Mathplotlib Componnents License
+
+-------------------------------------------------------------------------------------------
+include::../sw/python/2.7.6/Lib/site-packages/matplotlib/mpl-data/fonts/ttf/COPYRIGHT.TXT[]
+-------------------------------------------------------------------------------------------
+
+=== Numpy License
+
+Website: http://www.numpy.org
+
+-----------------------------------------------------------------------------
+include::../sw/doc/numpy_license.txt[]
+-----------------------------------------------------------------------------
+
+=== Mpl License
+
+Website: http://volnitsky.com/project/mplw/
+Public Domain, SHA-1:75f0d009629f93f33fab04b83faca20cc35dd358
+
+=== MathMl
+
+Website: https://www.maths.nottingham.ac.uk/personal/drw/lm.html
+Public Domain
+
+=== xsltproc License
+
+Website: http://www.zlatkovic.com/libxml.en.html
+
+-----------------------------------------------------------------------------
+include::../sw/libxslt/1.1.26/readme.txt[]
+-----------------------------------------------------------------------------
+
+=== Docbook License
+
+Website: http://sourceforge.net/projects/docbook/files/#files
+
+-----------------------------------------------------------------------------
+include::../sw/doc/docbook_license.txt[]
+-----------------------------------------------------------------------------
+
+=== Dblatex License
+
+Website: http://dblatex.sourceforge.net
+
+-----------------------------------------------------------------------------
+include::../sw/doc/dblatex_license.txt[]
+-----------------------------------------------------------------------------
+
+
+=== Lynx License
+
+Website: 
+
+* http://lynx.isc.org/release/
+* https://sites.google.com/site/fredlwm/lynx.zip
+
+-----------------------------------------------------------------------------
+include::../sw/lynx/2.8.8/lynx_doc/COPYHEADER[]
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+include::../sw/lynx/2.8.8/lynx_doc/COPYING[]
+-----------------------------------------------------------------------------
+
+
+=== Softwarepackages under Apache License V2.0
+
+
+* *DiagFilter* +
+  https://code.google.com/p/asciidoc-diag-filter/downloads/list
+* *Blockdiag* +
+  https://pypi.python.org/pypi/blockdiag
+* *Actdiag* +
+  https://pypi.python.org/pypi/actdiag
+* *Seqdiag* +
+  https://pypi.python.org/pypi/seqdiag
+* *Nwdiag* +
+  https://pypi.python.org/pypi/nwdiag
+
+-----------------------------------------------------------------------------
+include::../sw/doc/apache_license_v2.0.txt[]
+-----------------------------------------------------------------------------
+
+=== Pil / Pillow License
+
+Website:
+
+* http://pillow.readthedocs.org/en/latest
+* https://pypi.python.org/pypi/Pillow/2.4.0
+
+-----------------------------------------------------------------------------
+include::../sw/doc/pillow_license.txt[]
+-----------------------------------------------------------------------------
+
+
+=== Webcolors License
+
+Website:
+
+* https://pypi.python.org/simple/webcolors
+
+-----------------------------------------------------------------------------
+include::../sw/doc/webcolors_license.txt[]
+-----------------------------------------------------------------------------
+
+Website:
+
+* https://pypi.python.org/pypi/funcparserlib/0.3.6
+* http://code.google.com/p/funcparserlib
+
+
+=== Funcparserlib License
+
+Website:
+
+* https://pypi.python.org/pypi/funcparserlib
+* http://code.google.com/p/funcparserlib
+
+-----------------------------------------------------------------------------
+include::../sw/doc/funcparserlib_license.txt[]
+-----------------------------------------------------------------------------
+
+=== Pyparsing
+
+Website:
+
+* http://pyparsing.wikispaces.com/
+* https://pypi.python.org/pypi/pyparsing
+
+
+-----------------------------------------------------------------------------
+include::../sw/doc/pyparsing_license.txt[]
+-----------------------------------------------------------------------------
+
+
+=== Six
+
+Website:
+
+* https://pypi.python.org/pypi/six
+
+-----------------------------------------------------------------------------
+include::../sw/doc/six_license.txt[]
+-----------------------------------------------------------------------------
+
+=== PySide
+
+Website: 
+
+* http://qt-project.org/wiki/PySide
+
+PySide has been published as a response to the lack of suitably licensed
+Qt bindings for Python. PySide is licensed under the LGPL version 2.1 license,
+allowing both Free/Open source software and proprietary software development.
+
+=== Ply
+
+Website:
+
+* http://www.dabeaz.com/ply
+
+-----------------------------------------------------------------------------
+include::../sw/doc/ply_license.txt[]
+-----------------------------------------------------------------------------
+
+
+=== Setuptools
+
+Website:
+
+* https://pypi.python.org/pypi/setuptools
+
+License: Python Software Foundation License. Please refer to Python
+
+
+=== InkScape
+
+Website: 
+
+* http://www.inkscape.org/de/
+
+==== Inkscape License
+
+-----------------------------------------------------------------------------
+include::../sw/inkscape/0.48.4-1/COPYING[]
+-----------------------------------------------------------------------------
+
+==== Inkscape Components
+
+
+-----------------------------------------------------------------------------
+include::../sw/inkscape/0.48.4-1/COPYING.LIB[]
+-----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+

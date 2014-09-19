@@ -1,0 +1,13 @@
+*.pyc
+*.swp
+
+asciidoctogo_register_temp
+asciidoctogo_temp
+/build/debug/asciidoctogo_register.exe
+/build/release/asciidoctogo.exe
+/build/release/asciidoctogo_register.exe
+/src/asciidoctogo/Makefile*
+/src/asciidoctogo/*.pro.user
+/src/asciidoctogo_register/Makefile*
+/src/asciidoctogo_register/*.pro.user
+
