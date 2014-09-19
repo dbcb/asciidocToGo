@@ -12,16 +12,16 @@ Packages
 AsciidocToGo is delivered as a stand alone package for windows and MAC-OS
 including the following parts:
 
-* [python 2.7.6](link:https://www.python.org/)
-* [Asciidoc 8.6.9](link:http://www.asciidoc.org)
+* [python 2.7.6](https://www.python.org/)
+* [Asciidoc 8.6.9](http://www.asciidoc.org)
 * [Miktex 2.9.5105](http://www.miktex.org/download)
 * [graphviz 2.3.8](http://www.research.att.com/software_tools?fbid=hCb8eyIXDJA)
 * [highlight 3.1.8](http://www.andre-simon.de/doku/highlight/en/highlight.php)
 * [mathplotlib 1.3.1](http://matplotlib.org/downloads.html)
-* [numpy 1.8.1 (1)](http://www.numpy.org), [numpy 1.8.1 (2)](link:http://volnitsky.com/project/mplw)
+* [numpy 1.8.1 (1)](http://www.numpy.org), [numpy 1.8.1 (2)](http://volnitsky.com/project/mplw)
 * mpl SHA-1:75f0d009629f93f33fab04b83faca20cc35dd358::
 * [mathml](https://www.maths.nottingham.ac.uk/personal/drw/lm.html)
-* [[xsltproc 1.1.26](http://www.zlatkovic.com/libxml.en.html)
+* [xsltproc 1.1.26](http://www.zlatkovic.com/libxml.en.html)
 * [docbook 1.78.1](http://sourceforge.net/projects/docbook/files/#files)
 * [dblatex 0.3.4](http://dblatex.sourceforge.net/)
 * [lynx 2.8.8](http://lynx.isc.org/release/ and https://sites.google.com/site/fredlwm/lynx.zip)
@@ -59,7 +59,7 @@ License
 AsciidocToGo itself is lisenced under the GPLv2.
 AsciidocToGo is based on a lot of third party packages.
 
-Please refer to: [AsciidocToGo and third party licenses](dbcb.github.com/asciidocToGo/doc/License.html)
+Please refer to: [AsciidocToGo and third party licenses](https://github.com/dbcb/asciidocToGo/blob/master/doc/License.html)
 
 Usage
 -----
@@ -69,16 +69,16 @@ Start AsciidocToGo and select the desired tab to produce html or docbook pdf fil
 Create HTML files with asciidoc
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-![AsciidocToGo Asciidoc Tab](dbcb.github.com/asciidocToGo/doc/images/adtg_asciidoc_tab.png)
+![AsciidocToGo Asciidoc Tab](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png)
 
-[This html document is created with AsciidocToGo asciidoc]((dbcb.github.com/asciidocToGo/doc/README.html)
+[This html document is created with AsciidocToGo asciidoc]((https://github.com/dbcb/asciidocToGo/blob/master/doc/README.html)
 
 Create Docbook pdf files with a2x
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-![AsciidocToGo Asciidoc Tab](dbcb.github.com/asciidocToGo/doc/images/adtg_a2x_tab.png)
+![AsciidocToGo Asciidoc Tab](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_a2x_tab.png)
 
-[This pdf document is created with AsciidocToGo a2xX]((dbcb.github.com/asciidocToGo/doc/README.pdf)
+[This pdf document is created with AsciidocToGo a2xX]((https://github.com/dbcb/asciidocToGo/blob/master/doc/README.pdf)
 
 
 Windows Explorer Context Menu Entry
@@ -87,7 +87,7 @@ Windows Explorer Context Menu Entry
 AsciidocToGo can add a registry based link to start AsciidocToGo with
 a right click on a txt file:
 
-![AsciidocToGo Context Menu](dbcb.github.com/asciidocToGo/doc/images/adtg_context_menu.png)
+![AsciidocToGo Context Menu](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_context_menu.png)
 
 
 Batch files for scripting
@@ -102,9 +102,9 @@ Alpha Version 0.0.5.
 
 Links:
 
-* [AsciidocToGo User Manual](dbcb.github.com/asciidocToGo/doc/Manual.html)
-* [AsciidocToGo README](dbcb.github.com/asciidocToGo/doc/README.html)
-* [AsciidocToGo License](dbcb.github.com/asciidocToGo/doc/License.html)
+* [AsciidocToGo User Manual](https://github.com/dbcb/asciidocToGo/blob/master/doc/Manual.html)
+* [AsciidocToGo README](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png/README.html)
+* [AsciidocToGo License](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png/License.html)
 
 
 
