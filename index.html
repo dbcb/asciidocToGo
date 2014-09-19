@@ -2,9 +2,9 @@
 <html>
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="AsciidocToGo : Portable version of asciidoc including plugins (dot, mathplotlib, docbook, latex, code highlighting) " />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="AsciidocToGo : Portable version of asciidoc including plugins (dot, mathplotlib, docbook, latex, code highlighting) ">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -32,63 +32,115 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="asciidoctogo" class="anchor" href="#asciidoctogo"><span class="octicon octicon-link"></span></a>AsciidocToGo</h1>
+<a name="asciidoctogo-" class="anchor" href="#asciidoctogo-"><span class="octicon octicon-link"></span></a>AsciidocToGo '</h1>
 
 <p>AsciidocToGo is a full featured portable version of <a href="http://www.asciidoc.org%20asciidoc">asciidoc</a> that contains
-the complete toolchain to build html or docbook/latex based PDF documentation out of plain ascii files. Just download
+the complete toolchain to build html or docbook/latex based PDF documentation out of plain ascii txt files. Just download
 AsciidocToGo and start writing instead of seaching day or maybe weeks to put together all of the the required
-softwareparts.</p>
+software parts.</p>
 
 <h2>
 <a name="packages" class="anchor" href="#packages"><span class="octicon octicon-link"></span></a>Packages</h2>
 
-<p>AsciidocToGo is delivered as a stand alone package for windows, linux, and McOS
+<p>AsciidocToGo is delivered as a stand alone package for windows and MAC-OS
 including the following parts:</p>
 
 <ul>
-<li>python 2.7.x</li>
-<li>asciddoc</li>
-<li>code highlighter (hightlight or gnu)</li>
-<li>dot</li>
-<li>mathplotlib</li>
-<li>mathML</li>
-<li>dblatex</li>
-<li>xsltproc</li>
-<li>DocBook XSL Stylesheets</li>
-<li>Lynx</li>
-<li>mpw</li>
-<li>QSide</li>
-<li>Ply</li>
+<li><a href="https://www.python.org/">python 2.7.6</a></li>
+<li><a href="http://www.asciidoc.org">Asciidoc 8.6.9</a></li>
+<li><a href="http://www.miktex.org/download">Miktex 2.9.5105</a></li>
+<li><a href="http://www.research.att.com/software_tools?fbid=hCb8eyIXDJA">graphviz 2.3.8</a></li>
+<li><a href="http://www.andre-simon.de/doku/highlight/en/highlight.php">highlight 3.1.8</a></li>
+<li><a href="http://matplotlib.org/downloads.html">mathplotlib 1.3.1</a></li>
+<li>
+<a href="http://www.numpy.org">numpy 1.8.1 (1)</a>, <a href="http://volnitsky.com/project/mplw">numpy 1.8.1 (2)</a>
+</li>
+<li>mpl SHA-1:75f0d009629f93f33fab04b83faca20cc35dd358::</li>
+<li><a href="https://www.maths.nottingham.ac.uk/personal/drw/lm.html">mathml</a></li>
+<li><a href="http://www.zlatkovic.com/libxml.en.html">xsltproc 1.1.26</a></li>
+<li><a href="http://sourceforge.net/projects/docbook/files/#files">docbook 1.78.1</a></li>
+<li><a href="http://dblatex.sourceforge.net/">dblatex 0.3.4</a></li>
+<li><a href="http://lynx.isc.org/release/%20and%20https://sites.google.com/site/fredlwm/lynx.zip">lynx 2.8.8</a></li>
+<li><a href="https://code.google.com/p/asciidoc-diag-filter/downloads/list">diag_filter</a></li>
+<li><a href="https://pypi.python.org/pypi/blockdiag">blockdiag 1.3.3</a></li>
+<li><a href="https://pypi.python.org/pypi/Pillow/2.4.0">Pillow 2.4.0</a></li>
+<li><a href="https://pypi.python.org/pypi/actdiag">actdiag 0.5.1</a></li>
+<li><a href="https://pypi.python.org/pypi/seqdiag/">seqdiag 0.9.0</a></li>
+<li><a href="https://pypi.python.org/pypi/nwdiag">nwdiag 1.0.0</a></li>
+<li><a href="https://pypi.python.org/simple/webcolors">Webcolors 1.4</a></li>
+<li>funcparserlib 0.3.6</li>
+<li>pyparsing 2.0.2</li>
+<li><a href="https://pypi.python.org/pypi/six">six 1.7.2</a></li>
+<li><a href="http://qt-project.org/wiki/PySide">PySide 1.2.2</a></li>
+<li><a href="http://www.dabeaz.com/ply/">ply 3.4</a></li>
+<li><a href="https://pypi.python.org/pypi/setuptools#windows-7-or-graphical-install">setuptool 4.0.1</a></li>
 </ul><h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
 
-<p>AsccidocToGo currently use batch files to setup an envirnonment with
-the correct pathes and environment variables. This will be changed changes later to
-python based QT gui. </p>
-
-<p>The installer adds the AsciidocToGo installation path to the system path.
-To use AsciidocToGo just open an shell (cmd.exe) and execute one
-of the following commands:</p>
+<p>Download AsciidocToGo zip file for your platform and extract the zip file
+outside of the default programm directory.</p>
 
 <ul>
-<li>
-<code>asciidoc.bat &lt;options&gt; &lt;filename&gt;</code>
- Executes asciidoc.py in the preconfigured environment</li>
-<li>
-<code>a2x.bat  &lt;options&gt; &lt;filename&gt;</code>
- Executes a2x.py in the preconfigured environment</li>
-<li>
-<code>AsciidocToGoShell.bat</code>
- Opens a command shell with the preconfigured environment</li>
-<li>
-<code>test_cmd.bat &lt;command&gt;</code>
- Excutes any shell command in the preconfigured environment</li>
+<li>Windows +
+Link will be added here later
+Suggestion: "C:\ProgramsDev\AsciidocToGo"
+Follow the dokumentation in doc/Manual.html</li>
+<li>MAC-OS
+Not yet published</li>
 </ul><h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>AsciidocToGo itself is lisenced under the GPLv2.
+AsciidocToGo is based on a lot of third party packages.</p>
+
+<p>Please refer to: <img src="https://github.com/dbcb/asciidocToGo/blob/master/doc/License.html" alt="AsciidocToGo and third party licenses"></p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Start AsciidocToGo and select the desired tab to produce html or docbook pdf files</p>
+
+<h3>
+<a name="create-html-files-with-asciidoc" class="anchor" href="#create-html-files-with-asciidoc"><span class="octicon octicon-link"></span></a>Create HTML files with asciidoc</h3>
+
+<p><img src="https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png" alt="AsciidocToGo Asciidoc Tab"></p>
+
+<p>![This html document is created with AsciidocToGo asciidoc]((<a href="https://github.com/dbcb/asciidocToGo/blob/master/doc/README.html">https://github.com/dbcb/asciidocToGo/blob/master/doc/README.html</a>)</p>
+
+<h3>
+<a name="create-docbook-pdf-files-with-a2x" class="anchor" href="#create-docbook-pdf-files-with-a2x"><span class="octicon octicon-link"></span></a>Create Docbook pdf files with a2x</h3>
+
+<p><img src="https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_a2x_tab.png" alt="AsciidocToGo Asciidoc Tab"></p>
+
+<p>![This pdf document is created with AsciidocToGo a2xX]((<a href="https://github.com/dbcb/asciidocToGo/blob/master/doc/README.pdf">https://github.com/dbcb/asciidocToGo/blob/master/doc/README.pdf</a>)</p>
+
+<h2>
+<a name="windows-explorer-context-menu-entry" class="anchor" href="#windows-explorer-context-menu-entry"><span class="octicon octicon-link"></span></a>Windows Explorer Context Menu Entry</h2>
+
+<p>AsciidocToGo can add a registry based link to start AsciidocToGo with
+a right click on a txt file:</p>
+
+<p><img src="https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_context_menu.png" alt="AsciidocToGo Context Menu"></p>
+
+<h2>
+<a name="batch-files-for-scripting" class="anchor" href="#batch-files-for-scripting"><span class="octicon octicon-link"></span></a>Batch files for scripting</h2>
+
+<p>The package also provides batch files to start asciidoc and a2x from the command line.</p>
+
+<h2>
 <a name="current-state" class="anchor" href="#current-state"><span class="octicon octicon-link"></span></a>Current State</h2>
 
-<p>Working on the pre alpha packages for asciidoc-8.6.9.
-If you like to test the first pre alpha releases, drop mea note
-at CarstenBreuerDevATgmx.de</p>
+<p>Alpha Version 0.0.5. </p>
+
+<p>Copyright (c) by Carsten Breuer (CarstenBreuerDevatgmx.de)</p>
+
+<p>Links:</p>
+
+<ul>
+<li><a href="https://github.com/dbcb/asciidocToGo/blob/master/doc/Manual.html">AsciidocToGo User Manual</a></li>
+<li><a href="https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png/README.html">AsciidocToGo README</a></li>
+<li><a href="https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png/License.html">AsciidocToGo License</a></li>
+</ul>
       </section>
     </div>
 
