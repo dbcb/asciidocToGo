@@ -65,7 +65,7 @@ Start AsciidocToGo and select the desired tab to produce html or docbook pdf fil
 
 ![AsciidocToGo Asciidoc Tab](https://dbcb.github.io/asciidocToGo/doc/images/adtg_asciidoc_tab.png)
 
-[This html document is created with AsciidocToGo asciidoc]((https://dbcb.github.io/asciidocToGo/doc/README.html) from [this txt file](https://dbcb.github.io/asciidocToGo/doc/README.txt)
+[This html document is created with AsciidocToGo asciidoc](https://dbcb.github.io/asciidocToGo/doc/README.html) from [this txt file](https://dbcb.github.io/asciidocToGo/doc/README.txt)
 
 ### Create Docbook pdf files with a2x ###
 
@@ -96,8 +96,8 @@ Copyright (c) by Carsten Breuer (CarstenBreuerDevatgmx.de)
 Links:
 
 * [AsciidocToGo User Manual](https://dbcb.github.io/asciidocToGo/doc/Manual.html)
-* [AsciidocToGo README](https://dbcb.github.io/asciidocToGo/doc/images/adtg_asciidoc_tab.png/README.html)
-* [AsciidocToGo License](https://dbcb.github.io/asciidocToGo/doc/images/adtg_asciidoc_tab.png/License.html)
+* [AsciidocToGo README](https://dbcb.github.io/asciidocToGo/doc/README.html)
+* [AsciidocToGo License](https://dbcb.github.io/asciidocToGo/doc/License.html)
 
 
 
