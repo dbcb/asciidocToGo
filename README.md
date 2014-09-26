@@ -1,7 +1,7 @@
 # AsciidocToGo '#
 
 
-AsciidocToGo is a full featured portable version of [asciidoc](http://www.asciidoc.org asciidoc) that contains
+[AsciidocToGo](http://dbcb.github.io/asciidocToGo) is a full featured portable version of [asciidoc](http://www.asciidoc.org asciidoc) that contains
 the complete toolchain to build html or docbook/latex based PDF documentation out of plain ascii txt files. Just download
 AsciidocToGo and start writing instead of seaching day or maybe weeks to put together all of the the required
 software parts.
@@ -41,10 +41,10 @@ including the following parts:
 ## Installation ##
 
 Download AsciidocToGo zip file for your platform and extract the zip file
-outside of the default programm directory.
+outside of the default program directory.
 
 * Windows +
-  Link will be added here later
+  [AsciidocToGo0.0.5pre](https://github.com/dbcb/asciidocToGo/releases/download/ADTG_WIN_V0.0.5_pre/AsciidocToGo_win_0.0.5.zip)
   Suggestion: "C:\ProgramsDev\AsciidocToGo"
   Follow the dokumentation in doc/Manual.html
 * MAC-OS
@@ -56,7 +56,7 @@ outside of the default programm directory.
 AsciidocToGo itself is lisenced under the GPLv2.
 AsciidocToGo is based on a lot of third party packages.
 
-Please refer to: ![AsciidocToGo and third party licenses](https://github.com/dbcb/asciidocToGo/blob/master/doc/License.html)
+Please refer to: [AsciidocToGo and third party licenses](https://dbcb.github.io/asciidocToGo/doc/License.html)
 
 ## Usage ##
 
@@ -64,15 +64,15 @@ Start AsciidocToGo and select the desired tab to produce html or docbook pdf fil
 
 ### Create HTML files with asciidoc ###
 
-![AsciidocToGo Asciidoc Tab](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png)
+![AsciidocToGo Asciidoc Tab](https://dbcb.github.io/asciidocToGo/doc/images/adtg_asciidoc_tab.png)
 
-![This html document is created with AsciidocToGo asciidoc]((https://github.com/dbcb/asciidocToGo/blob/master/doc/README.html)
+[This html document is created with AsciidocToGo asciidoc]((https://dbcb.github.io/asciidocToGo/doc/README.html) from [this txt file](https://dbcb.github.io/asciidocToGo/doc/README.txt)
 
 ### Create Docbook pdf files with a2x ###
 
-![AsciidocToGo Asciidoc Tab](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_a2x_tab.png)
+![AsciidocToGo Asciidoc Tab](https://dbcb.github.io/asciidocToGo/doc/images/adtg_a2x_tab.png)
 
-![This pdf document is created with AsciidocToGo a2xX]((https://github.com/dbcb/asciidocToGo/blob/master/doc/README.pdf)
+[This pdf document is created with AsciidocToGo a2x](https://dbcb.github.io/asciidocToGo/doc/README.pdf) from the [same source](https://dbcb.github.io/asciidocToGo/doc/README.txt]
 
 
 ## Windows Explorer Context Menu Entry ##
@@ -81,7 +81,7 @@ Start AsciidocToGo and select the desired tab to produce html or docbook pdf fil
 AsciidocToGo can add a registry based link to start AsciidocToGo with
 a right click on a txt file:
 
-![AsciidocToGo Context Menu](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_context_menu.png)
+![AsciidocToGo Context Menu](https://dbcb.github.io/asciidocToGo/doc/images/adtg_context_menu.png)
 
 
 ## Batch files for scripting ##
@@ -96,9 +96,9 @@ Copyright (c) by Carsten Breuer (CarstenBreuerDevatgmx.de)
 
 Links:
 
-* [AsciidocToGo User Manual](https://github.com/dbcb/asciidocToGo/blob/master/doc/Manual.html)
-* [AsciidocToGo README](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png/README.html)
-* [AsciidocToGo License](https://github.com/dbcb/asciidocToGo/blob/master/doc/images/adtg_asciidoc_tab.png/License.html)
+* [AsciidocToGo User Manual](https://dbcb.github.io/asciidocToGo/doc/Manual.html)
+* [AsciidocToGo README](https://dbcb.github.io/asciidocToGo/doc/images/adtg_asciidoc_tab.png/README.html)
+* [AsciidocToGo License](https://dbcb.github.io/asciidocToGo/doc/images/adtg_asciidoc_tab.png/License.html)
 
 
 
