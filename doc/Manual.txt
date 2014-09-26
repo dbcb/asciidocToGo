@@ -1,0 +1,98 @@
+== AsciidocToGo User Manual
+
+AsciidocToGo is still under development and not anchor:todo[all functions are implemented yet].
+
+
+== Installation
+
+AsciidocToGo is delivered as a ZIP file at the moment.
+Due to the "install by use" feature of miktex it is suggested to
+install AsciidocToGo NOT in the default programm folder (e. g. C:\Program Files").
+
+AsciidocToGo doesn't need elavated rights (administration rights) to run.
+
+Nonetheless if you like to install the context menu shortcut for txt files in
+windows explorer, asciidoctogo_register.exe needs admin rights.
+
+
+=== How to install
+
+. Unzip the AsciidocToGo package in:
+  C:\ProgramsDev\AsciidocToGo
+. Open AsciidocToGo
+. Goto the options tab and click the button +
+  "Create registry based context menu handler in Windows Explorer for AsciidocToGo" +
+  Check the information in "Conext menu handler for windows explorer" if this
+  doesn't work.
+
+
+== Usage
+
+* Open AsciidocToGo and select the source file or
+* Right click on a txt file in windows explorer and select AsciidocToGo.
+
+=== Structure
+
+AsciidocToGo contains three tabs.
+
+=== Asciidoc (HTML)
+
+This tab is used to convert txt files to html files.
+
+Source:: The input txt file.
+Generated:: The output html file.
+Checkbox "Debug Output":: This enables the logging feature of asciidoc.
+Checkbox "Embed content":: Activates asciidoc data-uri feature. This let asciidoc create one html files with all resources included.
+Checkbox "Add table of content":: Activates the generation of the table of content / index.
+Command Line:: The command line given to asciidoc. You can add special asciidoc commands here.
+Execute Webbrowser...:: Enter the full path name to the webbrowser to show the generated document after conversion.
+
+
+=== A2X (Docbook/PDF)
+
+Page to convert txt files to docbook based pdf files.
+
+Source:: The input txt file.
+Generated:: The output html file.
+Checkbox "Debug Output":: This enables the logging feature of asciidoc.
+Command Line:: The command line given to a2x. You can add special asciidoc commands here.
+Execute PDF-Viewer...:: Enter the full path name to the pdf viewer to show the generated document after conversion.
+
+
+=== Options
+
+Lincense:: License information. link:./license.html[You must agree to this before using AsciidocToGo.]
+
+== Conext menu handler for windows explorer
+[[contextmenuhandler]]
+
+If you want to install the right click context menu handler for *.txt files
+to start asciidoc, do the following:
+
+. start asciidoctogo and go to the options tab.
+. then click "create registry based context menu handler...".
+
+It this fails the user doesn't have the neccessary rights to execute
+asiicdoctogo_regsiter.exe. If you need to register as a different user,
+do the following steps:
+
+. press the shift key down and right click on asciidoctogo_register.exe
+. Select "run as a different user"
+. Enter username and password and press OK/run.
+
+
+== ToDo
+[[todo]]
+
+Things that have to be done:
+
+* English correction by native speaker and translation.
+* Support AsciiMathML, LatexMathML and LatexMath (latex2png).
+* Create an option dialog for path configuration.
+* AsciidocToGo projects files to save settings with the txt file.
+* Support different browsers
+* Replace miktex against a smaller sized LaTeX distribution.
+* Provide a AsciidocToGo editor.
+* Create a MAC version of AsciidocToGo
+
+
