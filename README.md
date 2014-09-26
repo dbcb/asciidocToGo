@@ -40,15 +40,14 @@ including the following parts:
 
 ## Installation ##
 
-Download AsciidocToGo zip file for your platform and extract the zip file
-outside of the default program directory.
+Download AsciidocToGo zip file for your platform:
 
-* Windows +
-  [AsciidocToGo0.0.5pre](https://github.com/dbcb/asciidocToGo/releases/download/ADTG_WIN_V0.0.5_pre/AsciidocToGo_win_0.0.5.zip)
-  Suggestion: "C:\ProgramsDev\AsciidocToGo"
-  Follow the dokumentation in doc/Manual.html
+* Windows
+  1. Download [AsciidocToGo0.0.5pre](https://github.com/dbcb/asciidocToGo/releases/download/ADTG_WIN_V0.0.5_pre/AsciidocToGo_win_0.0.5.zip)
+  2. Unzip it in the folder "C:\ProgramsDev\AsciidocToGo"
+  3. Follow the dokumentation in doc/Manual.html
 * MAC-OS
-  Not yet published
+  * Not yet published
 
 
 ## License ##
@@ -72,8 +71,8 @@ Start AsciidocToGo and select the desired tab to produce html or docbook pdf fil
 
 ![AsciidocToGo Asciidoc Tab](https://dbcb.github.io/asciidocToGo/doc/images/adtg_a2x_tab.png)
 
-[This pdf document is created with AsciidocToGo a2x](https://dbcb.github.io/asciidocToGo/doc/README.pdf) from the [same source](https://dbcb.github.io/asciidocToGo/doc/README.txt]
-
+[This pdf document is created with AsciidocToGo a2x](https://dbcb.github.io/asciidocToGo/doc/README.pdf) from the 
+[same source](https://dbcb.github.io/asciidocToGo/doc/README.txt])
 
 ## Windows Explorer Context Menu Entry ##
 
