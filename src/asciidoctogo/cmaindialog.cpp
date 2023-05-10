@@ -14,6 +14,8 @@
 ************************************/
 #include <windows.h>
 #include <QtGui>
+#include <QMessageBox>
+#include <QFileDialog>
 #include "cmaindialog.h"
 #include "ui_cmaindialog.h"
 
@@ -66,6 +68,8 @@ CMainDialog::CMainDialog(QStringList& args, QWidget *parent) :
     connect(ui->license_view,
             SIGNAL(anchorClicked(const QUrl&)),
             SLOT(anchorClicked(const QUrl&)));
+
+    setWindowTitle(windowTitle() + " - ng");
 }
 
 /*****************************************************************************
@@ -744,7 +748,7 @@ void CMainDialog::on_pb_select_source_clicked()
                               this,
                               tr("Open Asciidoc Textfile"),
                               "",
-                              tr("Asciidoc Text Files (*.txt)"));
+                              tr("Asciidoc Text Files (*.txt *.adoc *.asciidoc);;Other Files (*.*)"));
     UpdateSrcFileName(infile);
 }
 
